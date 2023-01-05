@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "co.touchlab.manualversiontest"
-version = "1.0"
+version = "1.0.13"
 
 repositories {
     mavenLocal()
