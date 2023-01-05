@@ -7,7 +7,6 @@ plugins {
 }
 
 group = "co.touchlab.manualversiontest"
-version = "1.0.15"
 
 repositories {
     mavenLocal()
@@ -55,7 +54,7 @@ android {
 }
 
 kmmbridge {
-    timestampVersions()
+    manualVersions()
     noGitOperations()
     spm("../")
     cocoapods("git@github.com:Touchlab/Podspecs.git")
