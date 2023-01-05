@@ -6,7 +6,7 @@ plugins {
     `maven-publish`
 }
 
-group = "co.touchlab"
+group = "co.touchlab.manualversiontest"
 version = "1.0"
 
 repositories {
@@ -55,10 +55,9 @@ android {
 }
 
 kmmbridge {
-    versionPrefix.set("1.4")
+    manualVersions()
     spm("../")
     cocoapods("git@github.com:Touchlab/Podspecs.git")
-    gitTagVersions()
     mavenPublishArtifacts()
 }
 
